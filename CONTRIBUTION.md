@@ -21,7 +21,7 @@ you can use GitHub Polls :point_down:
 [![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BN3H6W441S8DTB1NH0DJ2K73/Option%20B)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BN3H6W441S8DTB1NH0DJ2K73/Option%20B/vote)
 [![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BN3H6W441S8DTB1NH0DJ2K73/Option%20C)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BN3H6W441S8DTB1NH0DJ2K73/Option%20C/vote)
 
-## Contrinution Guideline
+## Contribution Guideline
 
 * Please search previous suggestions before making a new one, as yours may be a duplicate.
 * Use the following format:`[Title](url) - Description.`
