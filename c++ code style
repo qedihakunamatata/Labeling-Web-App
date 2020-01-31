@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Google C++ Style Guide</title>
+</head>
+<h1>Google C++ Style Guide</h1>
+
+<p>C++ is one of the main development languages  used by
+many of Google's open-source projects. As every C++
+programmer knows, the language has many powerful features, but
+this power brings with it's complexity, which in turn can make
+code more bug-prone and harder to read and maintain.</p>
