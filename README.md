@@ -1,7 +1,8 @@
 # Labeling-Web-App
-A labeling web app that features crop image with label and certain shapes, save image to txt, JSON &amp; XML file.
 
 ## Project Description
+
+Create a labeling function web app that allow users to crop image with label and certain shapes, save image to txt, JSON & XML file.
 
 ## Group
 
