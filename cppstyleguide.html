@@ -8,42 +8,71 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
 
-        <h1 id="hed1">C++ Coding Style guide for Team23</h1>
-        <h2>Table of contents</h2>
+        <br/><h1  class= "para" id="hed1"><font color="#2B60DE">C++ Coding Style guide for Team23</font></h1>
+        <br/><h2 class="para"><font color="#2B60DE">Table of contents</font></h2>
 
     </body>
 
-    <table border="1">
+    <table border="5" cellpadding="10" cellspacing="0">
         <tr>
-            <th>C++ Veroin</th> 
+            <th><a href="#cppver">C++ Version</a></th> 
         </tr>
         <tr>
-            <th>Header Files</th>
+            <th><a href="#headF">Header Files</a></th>
             <th>Self-contained Headers</th>
+
         </tr>
         <tr>
             <th>Scoping</th>
+            <th>NameSapces</th>
         </tr>
         <tr>
             <th>Classes</th>
+
         </tr>
         <tr>
-            <th>Functions</th>
+            <th>Functions</th> 
+            <th>Output Parameters</th> 
         </tr>
         <tr>
             <th>Naming</th>
+            <th>General Name Rules</th>
         </tr>
         <tr>
             <th>Comment</th>
+            <th>Comment Style</th>
         </tr>
         <tr>
             <th>Formatting</th>
+            <th>Function Calls</th>
         </tr>
-
-
     </table>
+    <div style="line-height:0%;">
+        <br>
+    </div>
+    <h3 class="para"><font color="#2B60DE">Background</font></h3><div style="line-height:0%;">
+        <br>
+    </div>
+    <p class="para, spacecss">C++ is one of the main development languages used by many of Google's open-source projects. As every C++ programmer knows, the language has many powerful features, but this power brings with it complexity, which in turn can make code more bug-prone and harder to read and maintain.</p>
+    
+    
+    <br/><h3 class="para" id="cppver"><font color="#2B60DE">C++ Version</font></h3><div style="line-height:0%;">
+        <br>
+    </div>
+    <p class="para">Currently, code should target C++17, i.e., should not use C++2x features. The C++ version targeted by this guide will advance (aggressively) over time.</p>
+    <p class="para">Do not use non-standard extensions</p>
+    <p class="para">Consider portability to other environments before using features from C++14 and C++17 in your project.</p>
+
+    <br/><h3 class="para" id="headF"><font color="#2B60DE">Header File</font></h3><div style="line-height:0%;">
+        <br>
+    </div>
+    <p class="para">In general, every .cc file should have an associated .h file. There are some common exceptions, such as unittests and small .cc files containing just a main() function.</p>
+    <p class="para">Correct use of header files can make a huge difference to the readability, size and performance of your code.</p>
+    <p class="para">The following rules will guide you through the various pitfalls of using header files.</p>
 </html>
