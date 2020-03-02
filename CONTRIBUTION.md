@@ -29,6 +29,8 @@ you can use GitHub Polls :point_down:
 * Keep descriptions concise, clear and simple
 * Check your spelling and grammar.
 * New categories, or improvements to the existing ones are also welcome.
+* Regarding on the bug issues, if any bugs were discovered please make pull request or request change to admin
+* Do not make any changes without permissions, follow the procedure to make changes as mentioend above.
 
 ## Quality Standards
 
